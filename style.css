@@ -14,5 +14,52 @@
 .offer{
     position: absolute;
     right:0;
-   
+}
+.bg-booking{
+    background-color: #FDEBD5;
+}
+
+
+@media only screen and (max-width:768px)  {
+    
+    .carousel-item{
+        height: 400px;
+    }
+     .carousel-item img{
+         
+        height:400px;
+    }
+    .carousel-caption{
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .carousel-caption{ */
+    position:absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+    width:100%;
+}
+/* .carousel-caption h1{ */
+    font-size:5px;
+}
+/* .carousel-caption a{ */
+    display: block;
+    width: 30%;
+    margin: 0 100px;
 }
